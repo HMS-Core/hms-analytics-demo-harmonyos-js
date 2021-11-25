@@ -1,0 +1,42 @@
+@import '../../common/style.css';
+.score-num {
+    font-size: 40px;
+    color: #fa2a2d;
+    margin: 0 5px;
+}
+
+.score-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.score-item {
+    margin-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.input-wrap {
+    margin: 20px 0;
+}
+
+.answer {
+    height: 40px;
+    line-height: 40px;
+    width: 500px;
+    background-color: rgba(247, 247, 247, 1);
+    padding: 0 12px;
+}
+
+.answer-true {
+    color: #00cc6c;
+    margin-left: 10px;
+}
+
+.answer-false {
+    color: #fa2a2d;
+    margin-left: 10px;
+}

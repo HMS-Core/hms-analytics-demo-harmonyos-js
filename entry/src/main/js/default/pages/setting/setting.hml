@@ -1,0 +1,15 @@
+<!--pages/setting/setting.hml-->
+<div class="main">
+    <div class="main-head">
+        <text class="head-title">SETTING</text>
+        <div>
+            <button type="capsule" class="button-class mr20" @click="save">CONFIRM</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="input-item">
+            <label>Favorite Sport:</label>
+            <input type="text" placeholder="Please Enter Your Favorite Sport" @change="inputChange" />
+        </div>
+    </div>
+</div>

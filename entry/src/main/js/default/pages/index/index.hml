@@ -1,0 +1,26 @@
+<!--index.hml-->
+<div class="main">
+    <div class="main-head">
+        <div><text class="head-title">ANSWER THE QUESTIONS</text></div>
+        <div class="btns-wrap">
+            <button type="capsule" class="button-class btn-gray btn-set mr20" @click="showSettingMenu">
+                SETTINGS
+            </button>
+        </div>
+    </div>
+    <div class="main-content" if="{{!answerFinished}}">
+        <div><text class="title">Question {{currentNumber + 1}} / 5:</text></div>
+        <div><text class="txt">{{questions[currentNumber]}}</text></div>
+        <div class="operation">
+            <button type="capsule" class="button-class btn-answer" @click="checkAnswer" data-answer="{{true}}">TRUE</button>
+            <button type="capsule" class="button-class btn-answer" @click="checkAnswer" data-answer="{{false}}">FALSE</button>
+        </div>
+    </div>
+    <div class="main-content post-content" else>
+        <div class="operation onlyone">
+            <button type="capsule" class="button-class btn-post" @click="postScore">
+                POST SCORE
+            </button>
+        </div>
+    </div>
+</div>

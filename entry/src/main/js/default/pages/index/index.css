@@ -1,0 +1,29 @@
+/**index.css**/
+@import '../../common/style.css';
+.txt {
+    font-size: 24px;
+    min-height: 600px;
+    margin-bottom: 40px;
+}
+
+.operation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.onlyone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.post-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-answer {
+    min-width: 200px;
+}

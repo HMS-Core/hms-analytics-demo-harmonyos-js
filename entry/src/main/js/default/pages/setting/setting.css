@@ -1,0 +1,11 @@
+/* pages/nextpage/nextpage.css */
+@import '../../common/style.css';
+.input-item {
+    margin-bottom: 30px;
+}
+
+label {
+/* width: 300px; */
+    text-align: right;
+    margin-right: 20px;
+}

@@ -1,0 +1,22 @@
+<div class="main">
+    <div class="main-head">
+        <text class="head-title">POST SCORE</text>
+        <button type="capsule" class="button-class mr20" @click="goBack">BACK</button>
+    </div>
+    <div class="main-content">
+        <div class="title"><text>YOUR POST SCORE: </text><text class="score-num">{{score}}</text><text> POINTS</text></div>
+        <div class="score-lists">
+            <div class="score-item" for="{{(index, question) in questions}}">
+                <text class="question">{{index + 1}}.{{question}}</text>
+                <div class="input-wrap">
+                    <toggle value="{{ question }}" checked="{{userAnswers[index] == 1}}" disabled="true"></toggle>true
+                    <toggle value="{{ question }}" checked="{{userAnswers[index] == 0}}" disabled="true" class="ml20"></toggle>false
+                </div>
+                <div class="answer"><text>ANSWER:</text>
+                    <text class="answer-true" if="{{answers[index]}}">{{answers[index]}}</text>
+                    <text class="answer-false" else>{{answers[index]}}</text>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
