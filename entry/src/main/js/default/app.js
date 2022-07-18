@@ -14,7 +14,7 @@
    limitations under the License.
 */
 
-import analytics from '@hmscore/analytics-sdk-harmony';
+import analytics from '@hw-hmscore/analytics-sdk-harmony';
 
 export default {
     globalData: {
