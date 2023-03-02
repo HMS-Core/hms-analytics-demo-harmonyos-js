@@ -17,7 +17,7 @@
 import router from '@system.router';
 import storage from '@system.storage';
 import prompt from '@system.prompt';
-import {HAEventType, HAParamType, HAReportPolicy, HAUserProfileType} from '@hmscore/analytics-sdk-harmony/index.harmony_types';
+import {HAEventType, HAParamType, HAReportPolicy, HAUserProfileType} from '@hw-hmscore/analytics-sdk-harmony/index.harmony_types';
 
 const ALL_QUESTIONS = 5;
 
