@@ -41,7 +41,7 @@ Create an app in AppGallery Connect, obtain the **agconnect-services.json** file
 
 ## Configuration
 1. Create an app in AppGallery Connect and obtain the app configuration file **agconnect-services.json**. In HUAWEI DevEco Studio, switch to the **Project** view and move the **agconnect-services.json** file to the **entry** directory.
-2. Change **bundleName** in the **config.json** file in the **entry** directory to the HAP name obtained in the first step.
+2. Change **bundleName** in the **config.json** file in the **entry** directory to the HAP name obtained in the first step. In the **abilities** element, declare **the AppGallery Connect provider** and replace **com.example.myapplication** with your app package name.
 3. Change **bundlename** in the **app.js** file in the **js** directory to the HAP name obtained in the first step.
 
 ## Environment Requirements
