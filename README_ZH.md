@@ -41,7 +41,7 @@ HmsAnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分�
 
 ## 配置
 1. 在AppGallery Connect中创建应用，并获取应用配置文件agconnect-services.json。在HUAWEI DevEco Studio中，切换到Project视图，将agconnect-services.json文件移动到`entry`的根目录下。 
-2. 修改`entry`的config.json文件中的`bundleName`为第一步申请的`Hap`包名。
+2. 修改`entry`的config.json文件中的`bundleName`为第一步申请的`Hap`包名。在“abilities”模块中声明AGC provider，并将“com.example.myapplication”替换为您的应用包名。
 3. 修改`js`的app.js文件中的`bundlename`为第一步申请的`Hap`包名。
 
 ## 环境要求
